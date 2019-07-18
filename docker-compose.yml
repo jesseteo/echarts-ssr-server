@@ -1,8 +1,0 @@
-version: '3.3'
-
-services:
-   app:
-     image: daoying007/echarts-ssr-server:latest
-     restart: always
-     ports:
-      - 80:80
