@@ -11,6 +11,6 @@ ADD server.js /root/
 ADD package.json /root/
 RUN npm install
 
-EXPOSE 80
+EXPOSE 8081
 
 CMD ["pm2-docker", "start", "server.js"]
